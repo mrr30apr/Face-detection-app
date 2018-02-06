@@ -1,9 +1,9 @@
 import numpy as np
 import cv2
 
-
-face_cascade = cv2.CascadeClassifier('C:\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('C:\opencv\sources\data\haarcascades\haarcascade_eye.xml')
+# in windows mention the classifier location in between " " and in linux download opencv file and place the file location
+face_cascade = cv2.CascadeClassifier('..\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('..\opencv\sources\data\haarcascades\haarcascade_eye.xml')
 
 
 
